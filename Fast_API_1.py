@@ -9,19 +9,13 @@ app = FastAPI(title="Memes Book API")
 # ------------------ Data ------------------
 books = [
 
-    {"id": 1, "title": "How to become king", "author": "King Babar"},
-
-    {"id": 2, "title": "How to win Modi", "author": "Meloni"},
-
-    {"id": 3, "title": "How to get noble peace price", "author": "Trump"},
-
-    {"id": 4, "title": "Hamba hamba rambha rambha", "author": "Mamta"},
-
-    {"id": 5, "title": "How to learn nothing", "author": "Rahul"},
-
-    {"id": 6, "title": "How to become strongest", "author": "Yamucha"},
-    
-    {"id": 7, "title": "Thala for a reason", "author": "Dhoni"}
+     {"id": 1, "title": "The Path to Leadership", "author": "Aarav Sharma"},
+    {"id": 2, "title": "Winning Strategies", "author": "Elena Rossi"},
+    {"id": 3, "title": "Achieving Global Recognition", "author": "Michael Carter"},
+    {"id": 4, "title": "Creative Thinking Simplified", "author": "Priya Verma"},
+    {"id": 5, "title": "The Art of Doing Nothing", "author": "Rahul Mehta"},
+    {"id": 6, "title": "Becoming Unstoppable", "author": "Yuki Tanaka"},
+    {"id": 7, "title": "The Power of Consistency", "author": "Dinesh Kumar"}
 ]
 
 # ------------------ Schema ------------------
